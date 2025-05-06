@@ -119,7 +119,6 @@ const startServer = async () => {
     logSection('Configuration');
     logInfo(`Environment: ${process.env.NODE_ENV || 'development'}`);
     logInfo(`Port: ${port}`);
-    logInfo(`CORS Origins: ${allowedOrigins.join(', ')}`);
     logInfo(`Weekend Attendance: ENABLED`);
     
     logSection('Database');
